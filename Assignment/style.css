@@ -1,0 +1,17 @@
+input{
+    border:  solid green;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px 20px;
+}
+textarea {
+    border-color: green;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    height: 200px;
+    border-width: 3px;
+}
+input[type=submit] {
+    background-color: green;
+}
