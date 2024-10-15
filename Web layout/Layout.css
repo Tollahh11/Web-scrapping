@@ -1,0 +1,113 @@
+*{
+    margin: 3px;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background-color: black;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+.logotop{
+    width: 15%;
+    float: left;
+}
+.logotop img{
+    width: 100px;
+    height: 100px;
+}
+.brand{
+    width: 60%;
+    float: left;
+    height: fit-content;
+    font-weight: 50px;
+    font-size: 50px;
+    color: aliceblue;
+}
+.social_icon{
+    background-color: wheat;
+    width: 15%;
+    float: left;
+}
+.topmenu ul{
+    clear: both;
+    gap: 50px;
+    list-style-type: none;
+}
+li{
+    color: burlywood;
+    display: inline;
+}
+.row1{
+    float: left;
+    width: 30%;
+    background-color: aqua;
+    border-radius: 7px;
+    border: 1px solid aqua;
+}
+#row12{
+    overflow: auto;
+    height: 125px;
+}
+.row2{
+    float: left;
+    width: 30%;
+    background-color: aqua;
+    border-radius: 7px;
+    border: 1px solid aqua;
+}
+.row3{
+    float: left;
+    width: 30%;
+    background-color: aqua;
+    border-radius: 7px;
+    border: 1px solid aqua;
+    margin-bottom: 80px;
+}
+footer{
+    clear: both;
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+} 
+.foot1 img{
+    width: 50px;
+    height: 50px;
+}
+.foot1{
+    width: 29%;
+    float: left;
+    background-color: red;
+}
+.foot2{
+    width: 29%;
+    margin-left: 20px;
+    float: left;
+    background-color: grey;
+    color: white;
+}
+.foot3{
+    width: 29%;
+    float: left;
+    margin-left: 20px;  
+    background-color: blue;
+    color: white; 
+}
+a:link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aqua;
+}
+a:hover{
+    background-color: aliceblue;
+}
+.row1:hover{
+    transform: scale(1.1) ;
+}
+.row2:hover{
+    transform: scale(1.1) ;
+}
+.row3:hover{
+    transform: scale(1.1) ;
+}

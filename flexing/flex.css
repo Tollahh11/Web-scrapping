@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row{
+    background-color: blueviolet;
+    color: beige;
+    width: 22%;
+    padding: 5px;
+    margin: 5px;
+}
+.row:hover{
+    transform: scale(1.03);
+}
+.line{
+    color: whitesmoke;
+}
